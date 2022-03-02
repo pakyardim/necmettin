@@ -1,0 +1,290 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  background-color: #EEEEEE;
+  font-size: 1em;
+}
+.top-container {
+  padding-top: 69px;
+  position: relative;
+  background-color: #7882A4;
+}
+
+.middle-container {
+  position: relative;
+  padding-top: 50px;
+}
+
+.bottom-container {
+  /*padding-top: 20px;
+  padding-bottom: 10px;*/
+  padding: 3em 0;
+  position: relative;
+  background-color: #C3DBD9;
+  font-size: 14px;
+}
+
+hr{
+  position: relative;
+  bottom: 3.5em;
+  height: 1px;
+  border-style: inset;
+}
+
+
+.tr{
+  position: relative;
+  right: 500px;
+  bottom: 30px;
+  background-color: #7882A4;
+  text-decoration: none;
+}
+
+.uk{
+  position: relative;
+  right: 480px;
+  bottom: 30px;
+  background-color: #7882A4;
+
+  text-decoration: none;
+}
+
+.tr-icon{
+  height: 30px;
+  width: 30px;
+}
+
+
+.uk-icon{
+  height: 28px;
+  width: 28px;
+}
+
+h1 {
+  font-size: 3em;
+  color: #21325E;
+  width: 20%;
+  position: relative;
+  top: 90px;
+  margin: 0 auto;
+  font-family: "Sacramento", cursive;
+}
+
+h2 {
+  font-size: 2.6em;
+  color: #21325E;
+  font-family: "Montserrat", sans-serif;
+}
+
+h3 {
+  font-size: 1.5em;
+  color: #21325E;
+  font-family: "Montserrat", sans-serif;
+}
+
+img::selection{
+  color: black;
+}
+p{
+  font-size: 1.2em;
+}
+
+
+h1::selection, h2::selection, h3::selection,p::selection, .c-financial-link::selection{
+  color:black;
+  background-color: #7882A4;
+}
+
+
+.topp::selection{
+  color:black;
+}
+
+.topp {
+  position: relative;
+  top: 90px;
+  font-size: 1.2em;
+  color: #21325E;
+}
+
+.c-financial-link{
+  color: black;
+}
+
+.c-financial-link:active{
+  color: #21325E;
+}
+.work-link:link{
+  font-size: 1.2em;
+  position: relative;
+  left: 500px;
+  bottom: 30px;
+  color: #21325E;
+  text-decoration: none;
+}
+
+.notes-link:link{
+  font-size: 1.2em;
+  position: relative;
+  left: 550px;
+  bottom: 30px;
+  color: #21325E;
+  text-decoration: none;
+}
+
+/* unvisited link */
+
+.footer-p{
+  position: relative;
+  top: 25px;
+}
+
+.footer-link:link{
+  margin: 10px;
+
+  color: black;
+  text-decoration: none;
+}
+.me-link:link {
+  font-size: 1.2em;
+  position: relative;
+  left: 450px;
+  bottom: 30px;
+  color: black;
+  text-decoration: none;
+}
+
+.btn {
+  display: block;
+  width: 150px;
+  height: 40px;
+  background: #7882A4;
+  margin: auto;
+  text-align: center;
+  border-radius: 5px;
+  color: #21325E;
+  font-weight: bold;
+  line-height: 40px;
+  text-decoration: none;
+}
+
+.btn::selection{
+  color: black;
+}
+.btn:hover, .btn:active{
+  background: #737A9B;
+}
+/* visited link */
+.me-link:visited, .footer-link:visited{
+  color: black;
+  text-decoration: none;
+}
+
+.work-link:visited, .notes-link:visited {
+  color: #21325E;
+  text-decoration: none;
+}
+
+/* mouse over link */
+.me-link:hover, .work-link:hover, .notes-link:hover{
+  color: black;
+  background-color: #7882A4;
+  text-decoration: none;
+
+}
+
+.footer-link:hover{
+  text-decoration: none;
+  color: black;
+  background-color: #C3DBD9;
+}
+
+.me-link::selection, .work-link::selection, .notes-link::selection, .tr::selection, .uk::selection, .footer-link::selection{
+  color: black;
+}
+
+/* selected link */
+.me-link:active, .work-link:active, .notes-link:active, .footer-link:active {
+  color: black;
+  text-decoration: none;
+}
+
+
+.profile{
+  padding-top: 70px;
+  position: relative;
+  padding-bottom: 100px;
+}
+
+.skills{
+  padding-bottom: 80px;
+}
+
+.get-in-touch{
+  padding-bottom: 80px;
+  width: 50%;
+  margin: auto;
+
+}
+
+
+.skill-row{
+  width: 50%;
+  margin: 150px auto 100px auto;
+  text-align: left;
+  line-height: 200%;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 90px;
+  right: 28%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 28%;
+  margin-top: 70px;
+}
+
+.mountain {
+  position: relative;
+  top: 4px;
+  padding-top: 20px;
+  margin-top: 105px;
+}
+
+.regen-img {
+  position: relative;
+  border-radius: 50%;
+  max-width: 25%;
+  max-height: 25%;
+  margin-right: 30px;
+
+  bottom: 30px;
+  float: left;
+}
+
+.cardiff{
+
+  max-width: 25%;
+  max-height: 25%;
+  margin-right: 30px;
+  float: right;
+}
+
+.financial-img{
+
+  max-width: 20%;
+  max-height: 20%;
+  margin-right: 30px;
+  float: left;
+}
+
+
+.necmettinjpg {
+  border-radius: 50%;
+  max-width: 200px;
+  max-height: 200px;
+}
